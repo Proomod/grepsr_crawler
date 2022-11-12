@@ -12,12 +12,12 @@
 ## Getting Started <a name = "getting_started"></a>
 
 
-```php
+```shell
 composer install
 
 ```
 **And Run individual file with**
-```php
+```shell
     php {filename}
 ```
 
@@ -29,7 +29,7 @@ composer install
 ### **make sure you have php version greater than 7.3 installed**
 
 #### **Install composer if not already installed by running the lines below**
-```php
+```shell
 
 php -r "copy('https://getcomposer.org/installer', 'composer-setup.php');"
 php -r "if (hash_file('sha384', 'composer-setup.php') === '55ce33d7678c5a611085589f1f3ddf8b3c52d662cd01d4ba75c0ee0459970c2200a51f492d557530c71c15d8dba01eae') { echo 'Installer verified'; } else { echo 'Installer corrupt'; unlink('composer-setup.php'); } echo PHP_EOL;"
