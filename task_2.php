@@ -1,6 +1,6 @@
 <?php
 
-echo convert(0.999997,4);
+echo convert(2.999997,1);
 
 function convert($float_num,$precision){
     $num_separated=explode('.',$float_num);
@@ -10,6 +10,6 @@ function convert($float_num,$precision){
     }
     else
         $decimal=ceil($decimal);
-    echo implode('.',array($num_separated[0],$decimal));
+    echo (implode('.',array($num_separated[0],$decimal.PHP_EOL)));
 }
 ?>
